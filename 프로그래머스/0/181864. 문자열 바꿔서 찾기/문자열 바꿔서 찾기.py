@@ -11,8 +11,8 @@ def solution(myString, pat):
     print(new_string)
     
     if pat in new_string:
-        return 1
+        answer = 1
     else:
-        return 0
+        answer = 0
     
     return answer
